@@ -1,0 +1,73 @@
+
+body{
+    overflow-y: hidden; /* Isso remove a barra de rolagem vertical */
+    display: flex;
+    height: 100vh;
+    margin: 8px;
+    background-color: rgb(214, 209, 216);
+}
+
+#container-entrada, #fake-form{
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    width: 1100px;
+    height: 600px;
+    margin-left: 10px;
+}
+
+.escudo{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+p{
+    margin-top: 10px;
+    font-size: large;
+}
+h1{
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fogo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+#fake-form{
+    margin-top: 100px;
+    flex: 0.6 1 10%;
+    justify-content: center;
+}
+
+#entrada-senha{
+    padding: 0.5em;
+    margin: 1em;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .pagina-login,
+    .pagina-detalhes {
+        width: 100%;
+    }
+}

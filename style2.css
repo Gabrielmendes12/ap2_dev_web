@@ -87,6 +87,9 @@ h1{
         align-items: stretch; /* Esticar os elementos na largura total */
         text-align: center; /* Centralizar o texto */
     }
+    h1, #btn-sair {
+        margin: 10px 0; /* Adicionar margens ao título e ao botão "Sair" */
+    }
 
     #btn-sair {
         margin-right: 0; /* Remover a margem à direita em telas menores */

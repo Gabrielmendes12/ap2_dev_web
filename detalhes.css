@@ -60,8 +60,3 @@ p{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    #detalhes-page{
-        display: block; /* Exibe o título em telas menores */
-    }
-}

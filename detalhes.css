@@ -61,8 +61,7 @@ p{
 }
 
 @media screen and (max-width: 768px) {
-    h1 {
-        top: 0;
+    #detalhes-page{
         display: block; /* Exibe o título em telas menores */
     }
 }

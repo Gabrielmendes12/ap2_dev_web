@@ -60,3 +60,35 @@ p{
     margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+    body {
+        margin: 1em;
+    }
+
+    #detalhes1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    #detalhes2 {
+        margin-left: 0;
+    }
+
+    #voltar {
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .mascote {
+        margin: 20px auto; /* Centraliza na tela */
+    }
+
+    #detalhes-imagem {
+        width: 100%;
+        height: auto;
+    }
+
+
+}

@@ -73,19 +73,6 @@ h1{
     margin: 5px; /* Adapta a margem para telas menores */
 }
 
-/* Estilo para telas maiores */
-@media only screen and (min-width: 769px) {
-    .btn-desktop {
-        display: none; /* Oculta os botões em telas menores */
-    }
-
-    .select-mobile {
-        display: inline-block; /* Exibe o select em telas maiores */
-        margin: 0; /* Remove a margem em telas maiores */
-    }
-}
-
-
 /* Select até 768px */
 @media only screen and (max-width: 768px) {
     #barra-escolhas {
@@ -100,5 +87,13 @@ h1{
     #barra-escolhas button {
         padding: 10px; /* Ajustar o espaçamento interno para telas menores */
         margin: 5px; /* Ajustar a margem para telas menores */
+    }
+    .btn-desktop {
+        display: none; /* Oculta os botões em telas menores */
+    }
+
+    .select-mobile {
+        display: inline-block; /* Exibe o select em telas maiores */
+        margin: 0; /* Remove a margem em telas maiores */
     }
 }

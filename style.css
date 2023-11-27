@@ -64,13 +64,14 @@ button{
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        flex-direction: column;
+/* Adicione uma consulta de mídia para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%; /* Faça a imagem ocupar 100% da largura do contêiner pai */
+        height: auto; /* Mantém a proporção da imagem */
     }
 
-    .pagina-login,
-    .pagina-detalhes {
-        width: 100%;
+    #fake-form {
+        margin-top: 10px; /* Ajusta a margem superior */
     }
 }

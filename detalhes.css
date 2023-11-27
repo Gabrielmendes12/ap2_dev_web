@@ -60,18 +60,10 @@ p{
     margin-top: 20px;
 }
 
-#detalhes-page{
-    display: flex; 
-    align-items: center; 
-    gap: 1em; 
-    flex-direction: row;
-}
 
 
-@media only screen and (max-width: 768px) {
-    #detalhes-page{
-        display: block;
-    }
+
+@media only screen and (max-width: 1200px) {
 
     .pagina-login,
     .pagina-detalhes {

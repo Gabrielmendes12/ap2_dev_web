@@ -82,6 +82,11 @@ h1{
         margin-bottom: 10px;
         text-align: center; /* Centralizar o select */
     }
+    header {
+        flex-direction: column; /* Colocar os elementos em coluna em telas menores */
+        align-items: stretch; /* Esticar os elementos na largura total */
+        text-align: center; /* Centralizar o texto */
+    }
 
     #btn-sair {
         margin-right: 0; /* Remover a margem à direita em telas menores */

@@ -70,6 +70,10 @@ button{
         width: 100%; /* Faça a imagem ocupar 100% da largura do contêiner pai */
         height: auto; /* Mantém a proporção da imagem */
     }
+    .escudo{
+        width: 100%;
+        height: auto;
+    }
 
     #fake-form {
         margin-top: 10px; /* Ajusta a margem superior */

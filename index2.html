@@ -47,6 +47,12 @@
             document.getElementById('all').addEventListener('click', function(){
                 window.location.href = 'index_all.html';
             });
+
+            // Adicione um evento de mudança ao select para dispositivos móveis
+            document.getElementById('escolha-jogadores').addEventListener('change', function() {
+                var selectedOption = this.value;
+                window.location.href = selectedOption;
+            });
         </script>
 
     </div>

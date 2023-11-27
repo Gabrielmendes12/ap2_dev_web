@@ -2,8 +2,6 @@
 header{
     background-color: rgb(196, 227, 246);
     padding: 0.5em 1em;
-    height: 70px;
-    width: 1900px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -25,7 +23,7 @@ h1{
     margin: 0px;
     flex-grow: 1;
     margin-top: 17px;
-    margin-right: 330px;
+    margin-left: 80px;
     margin-bottom: 10px;
     text-align: center;
 }

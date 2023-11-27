@@ -82,13 +82,15 @@ h1{
         margin-bottom: 10px;
         text-align: center; /* Centralizar o select */
     }
+
     header {
         flex-direction: column; /* Colocar os elementos em coluna em telas menores */
         align-items: stretch; /* Esticar os elementos na largura total */
         text-align: center; /* Centralizar o texto */
     }
-    h1, #btn-sair {
-        margin: 10px 0; /* Adicionar margens ao título e ao botão "Sair" */
+
+    h1{
+      display: flex;  
     }
 
     #btn-sair {

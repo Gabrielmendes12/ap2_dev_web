@@ -67,11 +67,7 @@ h1{
 }
 
 
-/* Estilo para dispositivos móveis */
-.select-mobile {
-    display: inline-block; /* Exibe o select em telas menores */
-    margin: 5px; /* Adapta a margem para telas menores */
-}
+
 
 /* Select até 768px */
 @media only screen and (max-width: 768px) {
@@ -87,13 +83,5 @@ h1{
     #barra-escolhas button {
         padding: 10px; /* Ajustar o espaçamento interno para telas menores */
         margin: 5px; /* Ajustar a margem para telas menores */
-    }
-    .btn-desktop {
-        display: inline-block;
-        margin: 0; /* Oculta os botões em telas menores */
-    }
-
-    .select-mobile {
-        display: none; /* Exibe o select em telas maiores */
     }
 }

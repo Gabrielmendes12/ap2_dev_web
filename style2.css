@@ -75,9 +75,12 @@ h1{
         width: 100%;
         margin-bottom: 10px;
     }
-}
+    #btn-sair {
+        margin-right: 0; /* Remover a margem à direita em telas menores */
+    }
 
-/* Botões para viewports maiores que 768px */
-@media only screen and (min-width: 769px) {
+    #barra-escolhas button {
+        padding: 10px; /* Ajustar o espaçamento interno para telas menores */
+        margin: 5px; /* Ajustar a margem para telas menores */
+    }
 }
-

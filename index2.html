@@ -20,13 +20,29 @@
             <button id="feminino">Feminino</button>
             <button id="all">Elenco Completo</button>
 
-            <select id="escolha">
+            <select id="escolha"  onchange="redirecionarPagina()">
                 <option hidden selected disabled>Escolha seu elenco</option>
                 <option value="masculino">Masculino</option>
                 <option value="feminino">Feminino</option>
                 <option value="all">Elenco Completo</option>
             </select>
         </div>
+
+        <script>
+            function redirecionarPagina() {
+                var escolha = document.getElementById("escolha").value;
+        
+                // Verificar a opção selecionada e redirecionar para a página correspondente
+                if (escolha === "masculino") {
+                    window.location.href = "index_masc.html";
+                } else if (escolha === "feminino") {
+                    window.location.href = "index_fem.html";
+                } else if (escolha === "all") {
+                    window.location.href = "index_all.html";
+                }
+            }
+        </script>
+
         <script>
             // Adicione um evento de clique ao botão "Sair"
             document.getElementById('btn-sair').addEventListener('click', function() {
@@ -34,7 +50,6 @@
                 window.location.href = 'index.html';
             });
         </script>
-        <!-- Seu HTML -->
         <script>
             document.getElementById('masculino').addEventListener('click', function(){
                 window.location.href = 'index_masc.html';

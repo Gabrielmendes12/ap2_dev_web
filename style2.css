@@ -75,13 +75,22 @@ h1{
         display: block;
         width: 100%;
         margin-bottom: 10px;
+        text-align: center; /* Centralizar o select */
     }
+
     #btn-sair {
         margin-right: 0; /* Remover a margem à direita em telas menores */
     }
 
     #barra-escolhas button {
+        display: none; /* Esconder botões em telas menores */
+    }
+
+    #barra-escolhas select {
+        display: inline-block; /* Exibir o select em telas menores */
         padding: 10px; /* Ajustar o espaçamento interno para telas menores */
         margin: 5px; /* Ajustar a margem para telas menores */
+        border: 1px solid #ccc; /* Adicionar uma borda para melhorar a aparência */
+        border-radius: 5px; /* Cantos arredondados */
     }
 }

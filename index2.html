@@ -16,9 +16,16 @@
         </header>
         
         <div id="barra-escolhas">
-            <button id="masculino">Masculino</button>
-            <button id="feminino">Feminino</button>
-            <button id="all">Elenco Completo</button>
+             <!-- Adicione um elemento select para dispositivos móveis -->
+             <select id="escolha-jogadores" class="select-mobile">
+                <option value="index_masc.html">Masculino</option>
+                <option value="index_fem.html">Feminino</option>
+                <option value="index_all.html">Elenco Completo</option>
+            </select>
+            
+            <button id="masculino" class="btn-desktop">Masculino</button>
+            <button id="feminino" class="btn-desktop">Feminino</button>
+            <button id="all" class="btn-desktop">Elenco Completo</button>
         </div>
         <script>
             // Adicione um evento de clique ao botão "Sair"

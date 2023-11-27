@@ -70,7 +70,8 @@ p{
 
 @media only screen and (max-width: 768px) {
     body {
-        background-color: #f2f2f2;
+        background-color: black;
+        color: white;
     }
 
     .pagina-login,
